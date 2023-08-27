@@ -15,7 +15,7 @@ call plug#begin()
 Plug 'neoclide/coc.nvim'
 Plug 'preservim/nerdtree'
 Plug 'jiangmiao/auto-pairs'
-Plug 'dracula/vim'
+Plug 'dracula/vim',{'as':'dracula'}
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 call plug#end()
